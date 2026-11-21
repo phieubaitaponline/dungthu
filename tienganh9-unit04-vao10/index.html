@@ -490,41 +490,41 @@ main{flex-direction:column; align-items:stretch; max-width:1240px;}
 
 /* ================= PHONG CÁCH RIÊNG – TIẾNG ANH 9 (21/11/2026) =================
    Mỗi môn / mỗi lớp có ảnh nền và thẻ tiêu đề riêng (không dùng chung với môn khác).
-   Tiếng Anh 9: nền giấy kem kẻ dòng nhạt, góc và mép dưới có hình vẽ nét mảnh (sổ tay, bong bóng hội thoại, tai nghe, bút chì, tem thư, lá)
-   vẽ bằng code (nen_ta9.py -> chung/bg.jpg); thẻ tiêu đề câu nâu cà phê → nâu quế (#3E2723 → #7B4B32), số câu vàng kem #FFE3A3,
-   viền dưới xanh bạc hà #4FC3A1; tên bài nâu đậm #4E2A1E, dòng phụ xanh bạc hà đậm #1F7A68.
-   Chỉ đổi màu / ảnh nền, không đổi bố cục khuôn. */
-body, body.part-thong-hieu, body.part-van-dung{background:#FBF7EF url("bg.jpg") center center / cover no-repeat fixed;}
-.qhead.qh5{background:linear-gradient(135deg,#3E2723,#7B4B32); border-bottom:5px solid #4FC3A1;}
-.qhead.qh5 .tag{background:rgba(255,255,255,.15); color:#FFF4E6; border-color:rgba(255,255,255,.4);}
-.qh5 .qno{color:#FFE3A3;}
-.topbar h1{color:#4E2A1E;}
-.topbar p{color:#1F7A68;}
-header.topbar{background:rgba(255,255,255,.66); border-bottom:2px solid rgba(233,222,205,.95);}
-.teacher{box-shadow:0 8px 22px rgba(62,39,35,.16);}
-.teacher img{box-shadow:0 0 0 3px #D7B899;}
-.teacher .tinfo b{color:#6D3F2A;}
-.qcard{box-shadow:0 14px 36px rgba(62,39,35,.13);}
+   Tiếng Anh 9: nền giấy chấm bi xanh nhạt, góc và mép dưới có hình vẽ nét mảnh (sổ tay, bong bóng hội thoại, tai nghe, bút chì, tem thư, cát-xét, phong bì, lá)
+   vẽ bằng code (nen_ta9.py -> chung/bg.jpg); thẻ tiêu đề câu xanh dầu → xanh thép (#12344D → #2B6C8F), số câu hồng đào #FFC6A8,
+   viền dưới vàng hướng dương #F4C542; tên bài xanh dầu #12344D, dòng phụ cam cháy #C0562F.
+   (Đổi 21/11 khuya: bảng nâu cà phê – bạc hà ban đầu trùng với Toán 6 cập nhật cùng ngày.) Chỉ đổi màu / ảnh nền, không đổi bố cục khuôn. */
+body, body.part-thong-hieu, body.part-van-dung{background:#F5F8FB url("bg.jpg") center center / cover no-repeat fixed;}
+.qhead.qh5{background:linear-gradient(135deg,#12344D,#2B6C8F); border-bottom:5px solid #F4C542;}
+.qhead.qh5 .tag{background:rgba(255,255,255,.15); color:#EAF4FB; border-color:rgba(255,255,255,.4);}
+.qh5 .qno{color:#FFC6A8;}
+.topbar h1{color:#12344D;}
+.topbar p{color:#C0562F;}
+header.topbar{background:rgba(255,255,255,.66); border-bottom:2px solid rgba(214,226,236,.95);}
+.teacher{box-shadow:0 8px 22px rgba(18,52,77,.16);}
+.teacher img{box-shadow:0 0 0 3px #A9C7DC;}
+.teacher .tinfo b{color:#1D4E6E;}
+.qcard{box-shadow:0 14px 36px rgba(18,52,77,.13);}
 /* màn chào / màn kết quả (thanh tiêu đề thường) + khung bài đọc theo cùng phong cách */
-.qhead:not(.qh5){background:linear-gradient(135deg,#F3E6D6,#D9F3EA); color:#4E2A1E;}
-.intro h2{color:#5D3524;}
-.intro .sub{color:#1F7A68;}
-.tl-box{border-left-color:#A0694A; background:#FCF6EE;}
-.tl-box b{color:#5D3524;}
+.qhead:not(.qh5){background:linear-gradient(135deg,#DCEBF5,#FFF1CC); color:#12344D;}
+.intro h2{color:#1D4E6E;}
+.intro .sub{color:#C0562F;}
+.tl-box{border-left-color:#4F86A8; background:#F3F8FB;}
+.tl-box b{color:#1D4E6E;}
 /* ================= KHỐI TIẾNG ANH 9 (17/11/2026): nút Nghe, khung hội thoại, loa từng dòng ================= */
-.audio .play{background:linear-gradient(135deg,#5D3524,#8C5A3C); color:#fff; box-shadow:0 6px 0 #3E2723; font-size:1.3rem; padding:14px 34px;}
+.audio .play{background:linear-gradient(135deg,#1D4E6E,#2B6C8F); color:#fff; box-shadow:0 6px 0 #12344D; font-size:1.3rem; padding:14px 34px;}
 .ht{display:flex; flex-direction:column; gap:10px; margin:0 0 16px;}
 .ht-l{display:flex; align-items:flex-end; gap:10px; max-width:94%;}
 .ht-l.r{flex-direction:row-reverse; align-self:flex-end;}
 .ht-av{width:54px; height:54px; border-radius:50%; object-fit:cover; flex:none; background:#fff; box-shadow:0 0 0 3px #fff,0 3px 10px rgba(62,26,85,.18);}
-.ht-b{background:#F3ECE3; border-radius:18px 18px 18px 5px; padding:10px 15px; font-size:1.08rem; line-height:1.45; color:#2B2140;}
+.ht-b{background:#E6F0F7; border-radius:18px 18px 18px 5px; padding:10px 15px; font-size:1.08rem; line-height:1.45; color:#2B2140;}
 .ht-l.r .ht-b{background:#FFEDE4; border-radius:18px 18px 5px 18px;}
-.ht-b b{display:block; font-size:.82rem; letter-spacing:.02em; color:#5D3524; margin-bottom:2px;}
-.ht-l.r .ht-b b{color:#1F7A68; text-align:right;}
+.ht-b b{display:block; font-size:.82rem; letter-spacing:.02em; color:#1D4E6E; margin-bottom:2px;}
+.ht-l.r .ht-b b{color:#C0562F; text-align:right;}
 .ht-b .gap{min-width:120px;}
 .rc-w{display:inline-flex; align-items:center; gap:10px;}
-.mini.rclip{position:static; flex:none; width:40px; height:40px; border-radius:12px; font-size:1.05rem; background:linear-gradient(135deg,#5D3524,#8C5A3C); color:#fff; box-shadow:0 4px 0 #3E2723;}
-.tf.tk th{white-space:nowrap; font-size:1.6rem; color:#5D3524; line-height:1;}
+.mini.rclip{position:static; flex:none; width:40px; height:40px; border-radius:12px; font-size:1.05rem; background:linear-gradient(135deg,#1D4E6E,#2B6C8F); color:#fff; box-shadow:0 4px 0 #12344D;}
+.tf.tk th{white-space:nowrap; font-size:1.6rem; color:#1D4E6E; line-height:1;}
 .tl-box{white-space:pre-line;}
 /* 17/11 tối: chọn tranh – bấm vào hình là chọn, không bật phóng to (dễ nhầm) */
 .opt.pic .media img{pointer-events:none;}
@@ -537,20 +537,20 @@ header.topbar{background:rgba(255,255,255,.66); border-bottom:2px solid rgba(233
 @media (max-width:640px){ .ht-av{width:42px; height:42px;} .ht-b{font-size:1rem;} .mini.rclip{width:36px; height:36px;} }
 /* === CHẾ ĐỘ ĐỀ THI VÀO 10 – TIẾNG ANH 9, 21/11/2026 (từ chế độ đề thi THPT 16/11/2026) === */
 .tp-nopnho{text-align:center;margin:8px 0 0}
-.btn-nop{background:#fff;border:2px solid #5D3524;color:#5D3524;border-radius:999px;padding:8px 26px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit}
-.btn-nop:hover{background:#F3ECE3}
+.btn-nop{background:#fff;border:2px solid #12344D;color:#12344D;border-radius:999px;padding:8px 26px;font-weight:800;font-size:1rem;cursor:pointer;font-family:inherit}
+.btn-nop:hover{background:#E6F0F7}
 .tp-navnop{padding:10px 8px 6px;text-align:center}
 .tp-navnop .btn-nop{width:100%}
-#qnav .cell.tp-xong{background:#8C5A3C;color:#fff;border-color:#8C5A3C}
+#qnav .cell.tp-xong{background:#2B6C8F;color:#fff;border-color:#2B6C8F}
 #qnav .cell.tp-do{background:#FFE9B8;border-color:#F0C35A;color:#6B4E00}
 #qnav .cell.now{outline:3px solid #FF8A65;outline-offset:1px}
 .tp-xn{position:fixed;inset:0;background:rgba(25,35,40,.45);z-index:3000;display:flex;align-items:center;justify-content:center;padding:16px}
 .tp-hop{background:#fff;border-radius:20px;max-width:480px;width:100%;padding:22px 24px;box-shadow:0 20px 60px rgba(0,0,0,.25);text-align:center;line-height:1.5}
-.tp-hop h3{margin:0 0 8px;color:#5D3524;font-size:1.4rem}
+.tp-hop h3{margin:0 0 8px;color:#12344D;font-size:1.4rem}
 .tp-nut{display:flex;gap:12px;justify-content:center;margin-top:16px;flex-wrap:wrap}
 .tp-rv{border:2px solid #E3E8EC;border-radius:16px;padding:14px 16px;margin:12px 0;background:#fff;text-align:left;line-height:1.55}
 .tp-rv.ok{border-color:#9ED9B0}.tp-rv.sai{border-color:#F3B3B8}.tp-rv.mot-phan{border-color:#F0C35A}
-.tp-rvh{display:flex;gap:8px;align-items:center;font-size:1rem;color:#5D3524;margin-bottom:6px;flex-wrap:wrap}
+.tp-rvh{display:flex;gap:8px;align-items:center;font-size:1rem;color:#12344D;margin-bottom:6px;flex-wrap:wrap}
 .tp-d{margin-left:auto;font-weight:800;padding:2px 12px;border-radius:999px;background:#F1FAFA;white-space:nowrap}
 .tp-rv.ok .tp-d{background:#E6F6EA;color:#1E6B34}.tp-rv.sai .tp-d{background:#FDE8EA;color:#A61B29}.tp-rv.mot-phan .tp-d{background:#FFF3C4;color:#8A6100}
 .tp-de{font-weight:700;margin-bottom:8px}
